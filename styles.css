@@ -817,7 +817,7 @@ a:not([href]) { text-decoration: none; color: var(--ink-2); cursor: default; }
   color: var(--ink-2);
   margin: 0;
 }
-.pub > p:nth-of-type(1) { flex-grow: 1; }
+.pub > p:nth-of-type(1) { flex-grow: 0; }
 .pub-meta {
   font-size: 13px !important;
   color: var(--ink-3) !important;
@@ -892,13 +892,13 @@ a:not([href]) { text-decoration: none; color: var(--ink-2); cursor: default; }
   padding: 15px 0 var(--line);
 }
 .org {
-  height: 26px;
+  height: 28px;
   width: auto;
   filter: grayscale(1);
   opacity: .55;
   transition: opacity 200ms var(--ease-quiet), filter 200ms var(--ease-quiet);
 }
-.org-tall { height: 40px; }
+.org-tall { height: 32px; }
 .org:hover { opacity: 1; filter: grayscale(0); }
 /* logos invert only when the visitor has chosen dark via the toggle */
 :root[style*="color-scheme: dark"] .org { filter: grayscale(1) invert(.85); }
