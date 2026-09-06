@@ -16,8 +16,8 @@
 
 const SITE_FACTS = `
 IDENTITY
-- Louis Yiven Zhu ("Louis"). Incoming MSc student, Oxford Internet Institute (OII),
-  University of Oxford, from October 2026, St Antony's College. Previously London.
+- Louis Yiven Zhu ("Louis"). MSc student, Oxford Internet Institute (OII), University
+  of Oxford, 2026-27, St Antony's College (enrolled; programme name not yet public).
   Preparing for doctoral study from 2027.
 - BSc Science & Technology Studies, UCL, 2023-26: first-class honours, ranked first in
   the departmental cohort.
