@@ -78,6 +78,8 @@ RESEARCH
     10.2139/ssrn.5736722.
   * benchprobe — IN DEVELOPMENT, not released: analysis code behind the studies, being
     extracted into a PyTorch package (factor structure, reliability, grader agreement).
+  * Relit — IN DEVELOPMENT at ETH Zurich with Prof Elliott Ash: benchmark construction
+    and perturbation testing for legal NLP. Louis is a research contributor.
 - Other research, outside the evaluation programme:
   * "When Should Neural Data Inform Welfare?" — under review after an invited minor
     revision at the UCL Journal of Economics. Preprint DOI 10.48550/arXiv.2511.19548.
@@ -93,6 +95,8 @@ RESEARCH
 - No future venue is a status: never say a paper is "for ICLR", "for FAccT" or "for TMLR".
 
 EXPERIENCE
+- 2026-: Research Contributor, Relit, ETH Zurich (Prof Elliott Ash) — benchmark
+  construction and perturbation testing for legal NLP.
 - 2026 (May-Sep): Departmental Associate & Summer Research Intern, UCL Science &
   Technology Studies — designed a new undergraduate module on AI, digital labour and the
   future of work (funded UCL MAPS commission; supervised by Dr Joanna Octavia).

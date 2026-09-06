@@ -1341,21 +1341,16 @@ h4.pub-title, h4.wl-title { margin: 0; font-weight: 600; }
   color: var(--ink-2);
   margin: 4px 0 0;
 }
-.wl-meta { font-size: 13px; color: var(--ink-3); margin: 4px 0 0; line-height: 1.5; }
+.wl-meta { font-family: var(--font-label); font-size: 13px; color: var(--ink-3); margin: 4px 0 0; line-height: 1.5; }
 @media (max-width: 40rem) {
   .worklist li { grid-template-columns: 1fr; gap: .45rem; }
   .wl-side { flex-direction: row; flex-wrap: wrap; align-items: baseline; }
 }
 
-.orgs { list-style: none; margin: 0; align-items: flex-start; gap: 2.4rem 3rem; }
-.orgs li { display: flex; flex-direction: column; align-items: center; gap: 8px; max-width: 11.5rem; }
-.orgs li .org { align-self: center; }
-.orgs li span {
-  font-family: var(--font-data);
-  font-size: 10.5px;
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  color: var(--ink-3);
-  text-align: center;
-  line-height: 1.5;
-}
+/* logos are links to the institution; the look is unchanged */
+.orgs a { display: inline-flex; align-items: center; line-height: 0; text-decoration: none; border-radius: 2px; }
+.orgs a:focus-visible { outline: 2px solid var(--signal); outline-offset: 6px; }
+
+/* an odd last card spans the row rather than sitting half-empty */
+.pubs > .pub:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.pubs > .pub:last-child:nth-child(odd) > p { max-width: 44rem; }
