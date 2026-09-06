@@ -1354,3 +1354,12 @@ h4.pub-title, h4.wl-title { margin: 0; font-weight: 600; }
 /* an odd last card spans the row rather than sitting half-empty */
 .pubs > .pub:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .pubs > .pub:last-child:nth-child(odd) > p { max-width: 44rem; }
+
+/* phones: navigation wraps to a second row instead of scrolling off the edge */
+@media (max-width: 40rem) {
+  .topbar nav { flex-wrap: wrap; overflow-x: visible; row-gap: 7px; padding-right: 2.6rem; }
+}
+@media (max-width: 64rem) {
+  .spine ol { flex-wrap: wrap; row-gap: 6px; overflow-x: visible; }
+}
+@media (max-width: 40rem) { .banner-head .hint { display: none; } }
