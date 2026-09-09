@@ -59,6 +59,14 @@ RESEARCH
     10.17605/OSF.IO/5UQJ2). Under review, NeurIPS 2026 EconML workshop. Preprint
     arXiv:2608.29843; dataset DOI 10.5281/zenodo.22177190, mirrored on Hugging Face.
     It is a measurement paper about a price index, not evidence of deployment productivity.
+  * "Silent Revision: Measuring Undisclosed Change in the Safety Frameworks of Frontier AI
+    Developers" (Q4). Versioned, hash-pinned corpus of every public version of the twelve
+    frontier safety frameworks; 710 commitment instances traced across consecutive
+    versions. 67% of material changes (95% CI 62 to 72) are silent, i.e. not identifiable
+    from the developer's own account; weakening changes are more often undisclosed.
+    Under review, NeurIPS 2026 AI & Science workshop (AISciK). Preprint arXiv:2609.08789;
+    corpus and code DOI 10.5281/zenodo.22670700 and
+    github.com/louisyzhu/frontier-safety-framework-corpus.
   * "From Advisor to Voting Teammate" — workshop paper, Workshop on Human-Agent
     Collaboration at CHI 2026 (Tian, Zhang, Zhu and colleagues). Agent-based simulation,
     1.1M runs, of how an AI agent's institutional role and information access affect
