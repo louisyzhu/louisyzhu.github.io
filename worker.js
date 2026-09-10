@@ -126,7 +126,8 @@ TALKS & COMMUNITY
 - Talks: Workshop on Human-Agent Collaboration, CHI 2026 (paper presentation); invited
   to present the MMLU work at the UCL Centre for Responsible Innovation; Explore Econ
   2025, UCL.
-- Service: Invited Reviewer for two NeurIPS 2026 workshops — Trust-AI-Eval (TAE) and EconML.
+- Service: Invited Reviewer for three NeurIPS 2026 workshops — Trust-AI-Eval (TAE), EconML
+  and JUDGe (reliable evaluation for language models).
 - Roles: Director of Engagement, AI for Good (Oxford); Sponsorship Lead, Oxford
   Artificial Intelligence Society; Fellow, Thinking About Thinking (2026-27);
   Chairman, UCL Investment Society and President, UCL Political Science & Economy
