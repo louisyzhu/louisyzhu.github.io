@@ -84,8 +84,11 @@ RESEARCH
   * "Mandatory AI-Risk Disclosure as a Signalling Device in Capital Markets" (Q4) —
     conference paper, shortlisted and presented at Explore Econ 2025 (UCL). SSRN DOI
     10.2139/ssrn.5736722.
-  * benchprobe — IN DEVELOPMENT, not released: analysis code behind the studies, being
-    extracted into a PyTorch package (factor structure, reliability, grader agreement).
+  * benchprobe — IN DEVELOPMENT, not publicly released. A Python psychometrics library for
+    AI benchmark scores: reliability, factor structure, predictive validity and
+    item-response scaling on model x benchmark matrices. Every estimator is validated by
+    reproducing the published numbers of three studies from hash-pinned data, with a
+    reproducibility ledger in the repository. There is no public repository link yet.
   * Relit — IN DEVELOPMENT at ETH Zurich with Prof Elliott Ash: benchmark construction
     and perturbation testing for legal NLP. Louis is a research contributor.
 - Other research, outside the evaluation programme:

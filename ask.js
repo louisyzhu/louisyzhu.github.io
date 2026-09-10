@@ -53,7 +53,7 @@
     { k: 'evaleval coalition hugging face standards science evaluations',
       a: 'With the EvalEval Coalition (Hugging Face, Edinburgh, EleutherAI) he is a core contributor to the "Science of Evaluations" paper, a collaborative account of open problems in AI evaluation. He contributes the sections on validity and the evidence needed to support evaluation claims.' },
     { k: 'benchprobe tool package software pytorch toolkit code',
-      a: 'benchprobe is in development. It is the analysis code behind his studies, being extracted into a PyTorch package for factor structure, reliability and grader agreement on benchmark score matrices. It will be released when it is the code behind a study, with the same tiered reproducibility statement as the papers.' },
+      a: 'benchprobe is a Python psychometrics library for AI benchmark scores, covering reliability, factor structure, predictive validity and item-response scaling on model by benchmark matrices. Every estimator is validated by reproducing the published numbers of three studies from hash-pinned data, and the reproducibility ledger lives in the repository. It is still in development.' },
     { k: 'neural neuroeconomics welfare brain data policy',
       a: '"When Should Neural Data Inform Welfare?" is a critical framework for policy uses of neuroeconomics, outside his evaluation programme. It is under review after an invited minor revision at the UCL Journal of Economics, with a preprint on arXiv.' },
     { k: 'wage wages automation risk panel occupation ashe ons',
