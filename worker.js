@@ -84,11 +84,16 @@ RESEARCH
   * "Mandatory AI-Risk Disclosure as a Signalling Device in Capital Markets" (Q4) —
     conference paper, shortlisted and presented at Explore Econ 2025 (UCL). SSRN DOI
     10.2139/ssrn.5736722.
-  * benchprobe — IN DEVELOPMENT, not publicly released. A Python psychometrics library for
-    AI benchmark scores: reliability, factor structure, predictive validity and
-    item-response scaling on model x benchmark matrices. Every estimator is validated by
-    reproducing the published numbers of three studies from hash-pinned data, with a
-    reproducibility ledger in the repository. There is no public repository link yet.
+  * benchprobe — RELEASED v0.1.0, 11 Sept 2026, MIT. Python psychometrics library for AI
+    benchmark scores: reliability and grader agreement, factor structure controlled for
+    release date, leave-one-benchmark-out predictive validity, item-response scaling with
+    anchor linking, on any model x benchmark matrix. Every estimator validated by
+    reproducing the published numbers of three studies from hash-pinned data; 44
+    acceptance tests, per-number reproducibility ledger, independent cross-family review.
+    Building it surfaced three documented corrections to Louis's own archives. Repository
+    github.com/louisyzhu/benchprobe; DOI 10.5281/zenodo.22705351. Not a PyTorch package.
+    Citation: Zhu, L. Y. (2026). benchprobe: psychometrics for AI benchmark scores
+    (v0.1.0) [Computer software]. Zenodo.
   * Relit — IN DEVELOPMENT at ETH Zurich with Prof Elliott Ash: benchmark construction
     and perturbation testing for legal NLP. Louis is a research contributor.
 - Other research, outside the evaluation programme:
