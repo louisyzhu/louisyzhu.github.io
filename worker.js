@@ -37,26 +37,30 @@ RESEARCH
   the original test conditions. Professional work is one possible setting; interest in
   what changes when tools, interaction and human judgement enter the evaluated system.
 - Selected work:
-  * "One Capability or Many? Testing the Economic Validity of Frontier AI Evaluation"
-    (Q2). 421 model configurations, twelve benchmarks. Under a pre-specified
+  * "One Capability or Many? Structural and Predictive Tests of Benchmark Validity Disagree
+    About Economic Benchmarks for Frontier AI" (Q2; earlier title "Testing the Economic
+    Validity of Frontier AI Evaluation"). 421 model configurations, twelve benchmarks. Under a pre-specified
     dimensionality rule economically framed benchmarks form no distinct factor, yet a
     multi-factor model predicts held-out economic scores better than a single general
     index (pooled delta-MSE 0.037, 95% interval [0.019, 0.055]); the two tests disagree.
     Pre-specified hypotheses; analysis plan deposited retrospectively (DOI
-    10.17605/OSF.IO/VD34J). Under review, NeurIPS 2026 TAE workshop. Preprint
+    10.17605/OSF.IO/VD34J). Under review at ICLR 2027 (main track); workshop version under
+    review, NeurIPS 2026 TAE. Mentors Dr Marcos Barreto and Dr Thomas Robinson. Preprint
     arXiv:2608.29420; code and data at github.com/louisyzhu/frontier-ai-economic-validity.
     Do NOT describe it as pre-registered or by its single-factor result alone.
   * "Three Ways Classical Test Theory Misleads for LLM Judges" (Q1). When reliability
     statistics answer the wrong question in LLM-judge pipelines; empirical item bank and
-    simulation studies. Under review, NeurIPS 2026 JUDGe workshop. Code and data at
-    github.com/louisyzhu/llm-judge-reliability; preprint to follow.
+    simulation studies. Under review, NeurIPS 2026 JUDGe workshop; full version in preparation
+    for NeurIPS 2027 Evaluations and Datasets. Paper linked from the site; code and data at
+    github.com/louisyzhu/llm-judge-reliability.
   * "The Price of Intelligence: A Quality-Adjusted Price Index for AI Services" (Q4).
     21,024 posted-price observations, 3,208 models, 86 providers, 31 months (Feb 2024 to
     Aug 2026); capability table scores 782 models, crosswalk links 500 to prices. 87% of
     the decline in the price of capability is invisible to matched-model methods.
     Excluding contamination-flagged benchmarks leaves rankings intact at 0.998 yet moves
     the index by 0.49 log points a year. Pre-registered validity audit (DOI
-    10.17605/OSF.IO/5UQJ2). Under review, NeurIPS 2026 EconML workshop. Preprint
+    10.17605/OSF.IO/5UQJ2). Under review, NeurIPS 2026 EconML workshop; full version in
+    preparation for FAccT 2027. Preprint
     arXiv:2608.29843; dataset DOI 10.5281/zenodo.22177190, mirrored on Hugging Face.
     It is a measurement paper about a price index, not evidence of deployment productivity.
   * "Silent Revision: Measuring Undisclosed Change in the Safety Frameworks of Frontier AI
@@ -64,7 +68,8 @@ RESEARCH
     frontier safety frameworks; 710 commitment instances traced across consecutive
     versions. 67% of material changes (95% CI 62 to 72) are silent, i.e. not identifiable
     from the developer's own account; weakening changes are more often undisclosed.
-    Under review, NeurIPS 2026 AI & Science workshop (AISciK). Preprint arXiv:2609.08789;
+    Under review, NeurIPS 2026 AI & Science workshop (AISciK); full version in preparation for
+    FAccT 2027. Preprint arXiv:2609.08789;
     corpus and code DOI 10.5281/zenodo.22670700 and
     github.com/louisyzhu/frontier-safety-framework-corpus.
   * "From Advisor to Voting Teammate" — workshop paper, Workshop on Human-Agent
@@ -73,14 +78,17 @@ RESEARCH
     group decisions. Not a human-participant experiment.
   * "The Science of Evaluations" — EvalEval Coalition (Hugging Face, Edinburgh,
     EleutherAI); Louis is a core contributor, writing on validity and the evidence needed
-    to support evaluation claims. In preparation.
+    to support evaluation claims. In preparation for TMLR. He also contributes to Every Agent
+    Ever, the coalition's shared schema for reporting, storing and analysing agent evaluation runs.
 - Further work in the programme:
   * "A Score Should Travel With Its Repair History" (Q4) — position paper, ONE
-    manuscript under review at two NeurIPS 2026 workshops (AI for Meta-Science; AI &
-    Science, AISciK). SocArXiv preprint DOI 10.31235/osf.io/7bg8r_v1.
+    manuscript, derived from the MMLU dissertation, under review at two NeurIPS 2026 workshops
+    (AI for Meta-Science; AI & Science, AISciK); full version in preparation for the ICML 2027
+    Position Paper Track. SocArXiv preprint DOI 10.31235/osf.io/7bg8r_v1.
   * "The Unassembled Validity Argument" (Q1) — BSc dissertation on six years of MMLU:
     harness-dependent instability propagates into leaderboards and capability claims.
-    STS Best Dissertation Prize; manuscript in preparation.
+    STS Best Dissertation Prize; invited talk, UCL Centre for Responsible Innovation; manuscript
+    in preparation.
   * "Mandatory AI-Risk Disclosure as a Signalling Device in Capital Markets" (Q4) —
     conference paper, shortlisted and presented at Explore Econ 2025 (UCL). SSRN DOI
     10.2139/ssrn.5736722.
@@ -94,37 +102,48 @@ RESEARCH
     github.com/louisyzhu/benchprobe; DOI 10.5281/zenodo.22705351. Not a PyTorch package.
     Citation: Zhu, L. Y. (2026). benchprobe: psychometrics for AI benchmark scores
     (v0.1.0) [Computer software]. Zenodo.
-  * Relit — IN DEVELOPMENT at ETH Zurich with Prof Elliott Ash: benchmark construction
-    and perturbation testing for legal NLP. Louis is a research contributor.
+  * Relit (relit.ink) — IN DEVELOPMENT at ETH Zurich, Center for Law & Economics, with Prof
+    Elliott Ash: an LLM-based tool that audits whether a paper's claims are supported by and
+    cited to the economics literature. Louis is a research contributor on the benchmark
+    workstream (mapping and clearing benchmark issues; build, audit and score cycle for
+    perturbation testing; annotator-agreement indices; RePEc and CitEc metadata), in a large
+    Python codebase under a full test suite and stated invariants. NOT legal NLP.
 - Other research, outside the evaluation programme:
-  * "When Should Neural Data Inform Welfare?" — under review after an invited minor
-    revision at the UCL Journal of Economics. Preprint DOI 10.48550/arXiv.2511.19548.
-  * "Automation Risk and Wage Dynamics in the UK" — descriptive occupation-year panel
-    (ONS risk scores, ASHE occupation-level wages, two-way fixed effects): how real
-    wages evolved in occupations scored as high automation risk after 2016. SSRN DOI
-    10.2139/ssrn.5736503; under review, UCL Journal of Economics. Not causal.
+  * "Neural Evidence and Behavioural Welfare Economics: When Can Neuroeconomics Inform
+    Policy?" — JOURNAL ARTICLE, accepted and in production at the UCL Journal of Economics,
+    DOI 10.14324/111.444.2755-0877.2257 (revised article forthcoming at the DOI; the older
+    arXiv v1, 2511.19548, is superseded and not the version to cite).
+  * "Automation Exposure and the UK Labour Market: Employment, Pay and the Wage Floor,
+    2014-2020" — SSRN working paper, v2 (2026), DOI 10.2139/ssrn.5736503; earlier title
+    "Automation Risk and Wage Dynamics in the UK". Descriptive occupation-year panel (ONS
+    risk scores, ASHE occupation-level wages, two-way fixed effects). Not causal. Not under
+    journal review.
   * "Who Makes the Future of Work? Measurement, Hidden Labour and the Evidence on AI"
-    — in preparation with Dr Joanna Octavia (UCL), from a UCL MAPS-funded summer
-    research internship. A branch on AI and work, not part of the evaluation programme.
+    — review article, Louis Yiven Zhu and Joanna Octavia (UCL), funded by the UCL MAPS
+    Summer Research Internship scheme; built from a systematic review of 81 sources; first
+    draft complete, for submission to the International Labour Review. A branch on AI and
+    work, not part of the evaluation programme.
 - Dormant: adversarial CAPTCHAs (UCL CS + Holistic AI); cognitive load, XAI and trust
   study (UCL CS), study design complete. Not in preparation.
 - No future venue is a status: never say a paper is "for ICLR", "for FAccT" or "for TMLR".
 
 EXPERIENCE
-- 2026-: Research Contributor, Relit, ETH Zurich (Prof Elliott Ash) — benchmark
-  construction and perturbation testing for legal NLP.
+- 2026- (from Aug): Research Contributor, Relit, ETH Zurich Center for Law & Economics
+  (Prof Elliott Ash) — see Relit above.
 - 2026 (May-Sep): Departmental Associate & Summer Research Intern, UCL Science &
   Technology Studies — designed a new undergraduate module on AI, digital labour and the
   future of work (funded UCL MAPS commission; supervised by Dr Joanna Octavia).
-- 2026-: Supervised research project, LSE Department of Statistics (Dr Marcos E.
-  Barreto) — AI benchmark measurement, extended from assessed coursework into the One
-  Capability manuscript. Not a formal LSE appointment.
+- 2026-: Research project, benchmark measurement, LSE Department of Statistics (mentors
+  Dr Marcos Barreto and Dr Thomas Robinson) — analysis built end to end in Python, extended
+  from an assessed ME315 project into the One Capability manuscript. Not a formal appointment.
 - 2026-: Core contributor, EvalEval Coalition.
 - 2026: Teaching assistant & course developer, UCL STS (Responsible Innovation in
   Practice; Governance of Emerging Technologies).
 - 2025-26: Student AI researcher, Holistic AI (adversarial robustness of LLM/VLM agents).
 - 2025-26: Student researcher, UCL Computer Science (agent-based modelling,
   Prof Maarten Speekenbrink) — the CHI 2026 workshop paper.
+- 2025 (Apr-Sep): Researcher, UCL Department of Economics (Prof Roland Kappe) — the
+  automation-exposure wage panel.
 - 2025: Research contributor, Institute of Economic Affairs (UK graduate premium,
   with Julian Jessop).
 - 2025: Research contributor, UCL Institute for Global Prosperity (AI & Youth,
@@ -132,8 +151,7 @@ EXPERIENCE
 
 TALKS & COMMUNITY
 - Talks: Workshop on Human-Agent Collaboration, CHI 2026 (paper presentation); invited
-  to present the MMLU work at the UCL Centre for Responsible Innovation; Explore Econ
-  2025, UCL.
+  talk on the MMLU work at the UCL Centre for Responsible Innovation; Explore Econ 2025, UCL.
 - Service: Invited Reviewer for three NeurIPS 2026 workshops — Trust-AI-Eval (TAE), EconML
   and JUDGe (reliable evaluation for language models).
 - Roles: Director of Engagement, AI for Good (Oxford); Sponsorship Lead, Oxford
@@ -149,8 +167,10 @@ RECOGNITION
 
 OTHER
 - MITx MicroMasters in Statistics and Data Science, online, in progress (2 of 4
-  courses). LSE Summer School courses in machine learning and deep learning; Oxford
-  short courses in Python and ML.
+  courses). LSE Summer School 2026: ME315 Machine Learning in Practice (A), ME324 AI and
+  Deep Learning (A-), EC320 Applied Microeconometrics and Big Data (audited). Oxford short
+  courses in Python and ML. Skills include building evaluation pipelines that run and probe
+  models.
 - Off the desk: ice hockey, alpine ski racing, piano.
 - Languages: English, Cantonese, Mandarin; conversational French.
 - The website's banner is a generative illustration: a 3D ASCII landscape that encodes
