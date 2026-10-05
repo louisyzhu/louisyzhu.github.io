@@ -110,10 +110,13 @@ RESEARCH
     three studies from hash-pinned data; 44 acceptance tests, per-number reproducibility
     ledger, independent cross-family review. Repository github.com/louisyzhu/benchprobe;
     DOI 10.5281/zenodo.22705351. Not a PyTorch package.
-  * Relit (relit.ink), ETH Zurich, Center for Law & Economics, with Prof Elliott Ash. An
-    LLM-based tool that audits whether a paper's claims are supported by, and cited to, the
-    economics literature. Louis contributes to its benchmark construction and validation
-    workstream. Say nothing more about Relit.
+  * Relit (relit.ink). Louis is RESEARCH ASSISTANT to Prof Elliott Ash, Center for Law &
+    Economics, ETH Zurich (remote, from August 2026), working on LLM tools that audit
+    citations in economics research. He audits the evaluation and data layers of Relit, the
+    group's LLM pipeline that checks economics manuscripts against the literature they cite,
+    through code review and data-source analysis reported as issues and commits to the
+    group's codebase. Say nothing more about this work; it is under a confidentiality
+    agreement. Never mention other projects, collaborators, data sources or figures.
 - Other research, outside the evaluation programme.
   * "Neural Evidence and Behavioural Welfare Economics: When Can Neuroeconomics Inform
     Policy?" Accepted, UCL Journal of Economics, vol. 5, no. 1 (in proof), DOI
@@ -135,7 +138,8 @@ EXPERIENCE
   (mentors Dr Marcos Barreto and Dr Thomas Robinson). Built the analysis end to end in
   Python and extended it into the One Capability manuscript, now under review at ICLR 2027.
 - 2026- (from June). Core contributor, EvalEval Coalition.
-- 2026- (from August). Research contributor, Relit, ETH Zurich (see Relit above).
+- 2026- (from August). Research Assistant to Prof Elliott Ash, Center for Law & Economics,
+  ETH Zurich (see Relit above).
 - 2026 (May-Sep). Departmental Associate and Summer Research Intern, UCL Science &
   Technology Studies. Led the design of a new UCL module (2026/27) on AI, automation,
   platform labour and the future of work, a 280-hour funded UCL MAPS commission.
