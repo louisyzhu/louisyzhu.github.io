@@ -29,8 +29,9 @@ IDENTITY
   Also on Google Scholar and ORCID. CV (October 2026) at louisyzhu.github.io/Louis_Zhu_CV_Oct2026.pdf.
 
 RESEARCH
-- Area, the science of AI evaluation. What benchmark scores measure, when they predict
-  performance beyond the test, and when a decision should rely on them. Methods are
+- Area, the science of AI evaluation, treating benchmarks as measurement instruments. Whether
+  a score can be trusted, what it measures, what it predicts beyond the test and when a
+  decision should rely on it. Methods are
   quantitative, psychometric models (factor analysis, item response theory, reliability),
   statistical learning (nested cross-validation, held-out prediction) and economics (price
   indices, panel data), in Python, R and Stata, with PyTorch.

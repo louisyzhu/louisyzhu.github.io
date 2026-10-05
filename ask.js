@@ -23,11 +23,11 @@
   /* -- knowledge ------------------------------------------------------ */
   var KB = [
     { k: 'research study work topic focus what do does interest area science evaluation',
-      a: 'Louis studies the science of AI evaluation, asking what benchmark scores measure, when they predict performance beyond the test, and when a decision should rely on them. He works quantitatively, with psychometric models, statistical learning and economics.' },
+      a: 'Louis works on the science of AI evaluation, treating benchmarks as measurement instruments and asking whether a score can be trusted, what it measures, what it predicts beyond the test and when a decision should rely on it. He works quantitatively, with psychometric models, statistical learning and economics.' },
     { k: 'question questions four layers trust measure predict decide programme program arc',
       a: 'Four questions organise the work. Q1, can the score be trusted? Q2, what does the score measure? Q3, what does it predict outside the evaluation? Q4, when should a decision rely on it? Each paper on the site is tagged with the question it serves.' },
     { k: 'next direction thesis dissertation msc plan predictive validity deployment professional interactive tool agentic',
-      a: 'Ahead of doctoral study from 2027, he is asking whether evaluation results predict how systems perform once deployed, particularly in interactive and agentic settings. The study design is still being developed with supervisors, so the site does not describe it in detail.' },
+      a: 'For doctoral study from 2027, he asks whether evaluation results predict how systems perform once deployed, particularly in interactive and agentic settings. The study design is still being developed with supervisors, so the site does not describe it in detail.' },
     { k: 'method methods statistics stats skills irt technical tools quantitative psychometric',
       a: 'He works quantitatively, with psychometric models (factor analysis, item response theory, reliability), statistical learning (nested cross-validation, held-out prediction) and economics (price indices, panel data), in Python, R and Stata. He builds evaluation pipelines that run and probe models and has implemented language models in PyTorch.' },
     { k: 'oxford oii msc masters degree study studying university current student',
@@ -41,7 +41,7 @@
     { k: 'cv where resume curriculum vitae pdf download',
       a: 'His CV (October 2026) is linked at the top of the page, at louisyzhu.github.io/Louis_Zhu_CV_Oct2026.pdf.' },
     { k: 'publication paper papers published wrote writing research output selected preprints',
-      a: 'In 2026 he released five sole-authored preprints, on benchmark structure and repair history, LLM-judge reliability, quality-adjusted prices for AI inference and undisclosed change in frontier safety frameworks. Two are accepted at NeurIPS 2026 workshops, one is under review at ICLR 2027, and the analysis layer behind three of them is published as the benchprobe library. Every paper is listed in the research section with its status.' },
+      a: 'His five sole-authored 2026 preprints apply psychometric and statistical models to benchmark structure and repair history, LLM-judge reliability, quality-adjusted inference prices and undisclosed change in frontier safety frameworks. Two are accepted at NeurIPS 2026 workshops and one is under review at ICLR 2027, and the analysis layer behind three of them is published as the benchprobe library. Every paper is listed in the research section with its status.' },
     { k: 'under review reviewed submitted pending status currently',
       a: 'Two papers are under review. "One Capability or Many?" is under review at ICLR 2027, and "Who Makes the Future of Work?", with Joanna Octavia, is under review at the International Labour Review.' },
     { k: 'accepted accept acceptance journal workshops',
