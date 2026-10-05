@@ -1,6 +1,6 @@
 # louisyzhu.github.io
 
-Personal website of **Louis Yiven Zhu** — research on AI evaluation and measurement.
+Personal website of **Louis Yiven Zhu**, research on the science of AI evaluation.
 Live at [louisyzhu.github.io](https://louisyzhu.github.io/).
 
 Hand-written HTML, CSS and JavaScript. No frameworks, no build step, no trackers.

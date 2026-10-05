@@ -530,7 +530,10 @@ h1.sec-h::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
   color: var(--ink);
   line-height: 1.45;
 }
-@media (max-width: 64rem) { .facts { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 64rem) {
+  .facts { grid-template-columns: repeat(2, 1fr); }
+  .facts > .fact:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
 @media (max-width: 30rem) { .facts { grid-template-columns: 1fr; } }
 
 /* award list */
@@ -1363,3 +1366,9 @@ h4.pub-title, h4.wl-title { margin: 0; font-weight: 600; }
   .spine ol { flex-wrap: wrap; row-gap: 6px; overflow-x: visible; }
 }
 @media (max-width: 40rem) { .banner-head .hint { display: none; } }
+
+/* second hero paragraph, a step below the lede */
+.hero-more { font-size: 17px; line-height: 28px; color: var(--ink-2); max-width: 42rem; margin: 0 0 15px; }
+.hero-more a { text-decoration-color: var(--rule-strong); }
+.hero-more a:hover { text-decoration-color: var(--signal); }
+.hero-more em { color: var(--signal); font-style: italic; }
