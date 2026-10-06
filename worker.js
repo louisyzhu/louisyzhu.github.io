@@ -26,7 +26,7 @@ IDENTITY
   never call it an LSE degree.
 - Elected MSc Student Representative, Oxford Internet Institute, 2026-27.
 - Contact yiven.zhu@oii.ox.ac.uk. LinkedIn linkedin.com/in/yiven-z. GitHub github.com/louisyzhu.
-  Also on Google Scholar and ORCID. CV (October 2026) at louisyzhu.github.io/Louis_Zhu_CV_Oct2026.pdf.
+  OII profile oii.ox.ac.uk/people/profiles/louis-yiven-zhu. Also on Google Scholar and ORCID. CV (October 2026) at louisyzhu.github.io/Louis_Zhu_CV_Oct2026.pdf.
 
 RESEARCH
 - Area, the science of AI evaluation, treating benchmarks as measurement instruments. Whether
