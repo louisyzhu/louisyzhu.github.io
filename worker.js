@@ -25,13 +25,20 @@ IDENTITY
   2023-26, weighted average 92% to date. The awarding body is the University of London;
   never call it an LSE degree.
 - Elected MSc Student Representative, Oxford Internet Institute, 2026-27.
-- Contact yiven.zhu@oii.ox.ac.uk. LinkedIn linkedin.com/in/yiven-z. GitHub github.com/louisyzhu.
+- Oxford modules: Applied Machine Learning with LLMs; Applied Analytical Statistics;
+  Algorithmic Fairness and Accountability; Digital Social Science Research Design;
+  Technology Regulation; Internet and Society. Audited: Data Science and Machine Learning;
+  Internet Economics.
+- Contact louis.zhu@oii.ox.ac.uk. LinkedIn linkedin.com/in/yiven-z. GitHub github.com/louisyzhu.
   OII profile oii.ox.ac.uk/people/profiles/louis-yiven-zhu. Also on Google Scholar and ORCID. CV (October 2026) at louisyzhu.github.io/Louis_Zhu_CV_Oct2026.pdf.
 
 RESEARCH
-- Area, the science of AI evaluation, treating benchmarks as measurement instruments. Whether
-  a score can be trusted, what it measures, what it predicts beyond the test and when a
-  decision should rely on it. Methods are
+- Area. How to make evaluations of frontier AI trustworthy for real-world deployment, with a
+  focus on measurement validity. Examines the evaluation pipeline, from task design and
+  agentic scaffolds to LLM-based graders; asks how reasoning capabilities are measured and
+  whether benchmark scores are reliable, interpretable and predictive of performance in
+  high-stakes human-AI settings such as healthcare. Capability measures also underpin his
+  work on the economics of AI, from inference pricing to labour markets. Methods are
   quantitative, psychometric models (factor analysis, item response theory, reliability),
   statistical learning (nested cross-validation, held-out prediction) and economics (price
   indices, panel data), in Python, R and Stata, with PyTorch.
@@ -45,7 +52,7 @@ RESEARCH
 - Status summary. UNDER REVIEW, One Capability (ICLR 2027) and the Octavia review article
   (International Labour Review). ACCEPTED, The Price of Intelligence (NeurIPS 2026 EconML
   workshop), A Score Should Travel With Its Repair History (NeurIPS 2026 Workshop on AI for
-  Meta-Science) and Neural Evidence (UCL Journal of Economics, in proof). A workshop paper
+  Meta-Science) and, PUBLISHED, Neural Evidence (UCL Journal of Economics 5(1), 2026). A workshop paper
   is never a "NeurIPS paper".
 - Selected work.
   * "One Capability or Many? Structural and Predictive Tests of Benchmark Validity Disagree
@@ -119,7 +126,7 @@ RESEARCH
     agreement. Never mention other projects, collaborators, data sources or figures.
 - Other research, outside the evaluation programme.
   * "Neural Evidence and Behavioural Welfare Economics: When Can Neuroeconomics Inform
-    Policy?" Accepted, UCL Journal of Economics, vol. 5, no. 1 (in proof), DOI
+    Policy?" PUBLISHED, UCL Journal of Economics 5(1), 2026, DOI
     10.14324/111.444.2755-0877.2257. Earlier version arXiv:2511.19548.
   * "Automation Exposure and the UK Labour Market: Employment, Pay and the Wage Floor,
     2014-2020". SSRN working paper, v2 (2026), DOI 10.2139/ssrn.5736503. Descriptive
@@ -194,7 +201,7 @@ const SYSTEM = `You are the assistant embedded in Louis Yiven Zhu's personal web
 Answer questions about Louis using ONLY the facts between the FACTS tags.
 Rules, in order:
 1. If the answer is not in the facts, say you don't know and suggest emailing
-   yiven.zhu@oii.ox.ac.uk. Never guess, infer, or embellish beyond the facts.
+   louis.zhu@oii.ox.ac.uk. Never guess, infer, or embellish beyond the facts.
 2. Never invent numbers, dates, titles, venues, or names.
 3. Keep answers to one to three sentences, plain and friendly. No bullet lists
    unless asked. Refer to Louis in the third person.

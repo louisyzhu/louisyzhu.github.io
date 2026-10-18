@@ -13,7 +13,7 @@
   var chips = document.getElementById('chat-chips');
   if (!log || !form) return;
 
-  var EMAIL = 'yiven.zhu@oii.ox.ac.uk';
+  var EMAIL = 'louis.zhu@oii.ox.ac.uk';
 
   /* Set this to your deployed Cloudflare Worker URL (see worker.js) and
      the chat upgrades itself from the local matcher to a real language
@@ -22,16 +22,16 @@
 
   /* -- knowledge ------------------------------------------------------ */
   var KB = [
-    { k: 'research study work topic focus what do does interest area science evaluation',
-      a: 'Louis works on the science of AI evaluation, treating benchmarks as measurement instruments and asking whether a score can be trusted, what it measures, what it predicts beyond the test and when a decision should rely on it. He works quantitatively, with psychometric models, statistical learning and economics.' },
+    { k: 'research study work topic focus what do does interest area science evaluation trustworthy validity',
+      a: 'Louis studies how to make evaluations of frontier AI trustworthy for real-world deployment, with a focus on measurement validity. His research examines the evaluation pipeline, from task design and agentic scaffolds to LLM-based graders, and asks how reasoning capabilities are measured and whether benchmark scores are reliable, interpretable and predictive of performance in high-stakes human-AI settings such as healthcare.' },
     { k: 'question questions four layers trust measure predict decide programme program arc',
       a: 'Four questions organise the work. Q1, can the score be trusted? Q2, what does the score measure? Q3, what does it predict outside the evaluation? Q4, when should a decision rely on it? Each paper on the site is tagged with the question it serves.' },
     { k: 'next direction thesis dissertation msc plan predictive validity deployment professional interactive tool agentic',
       a: 'For doctoral study from 2027, he asks whether evaluation results predict how systems perform once deployed, particularly in interactive and agentic settings. The study design is still being developed with supervisors, so the site does not describe it in detail.' },
     { k: 'method methods statistics stats skills irt technical tools quantitative psychometric',
-      a: 'He works quantitatively, with psychometric models (factor analysis, item response theory, reliability), statistical learning (nested cross-validation, held-out prediction) and economics (price indices, panel data), in Python, R and Stata. He builds evaluation pipelines that run and probe models and has implemented language models in PyTorch.' },
-    { k: 'oxford oii msc masters degree study studying university current student',
-      a: 'He is an MSc student at the Oxford Internet Institute, University of Oxford (2026 to 2027), at St Antony’s College, and the elected MSc Student Representative for 2026 to 2027.' },
+      a: 'Drawing on psychometrics, statistics and machine learning, he develops and validates evaluation methods that strengthen the evidence behind claims of AI capability and safety. He works in Python, R and Stata, builds evaluation pipelines that run and probe models, and has implemented language models in PyTorch. Capability measures also underpin his work on the economics of AI, from inference pricing to labour markets.' },
+    { k: 'oxford oii msc masters degree study studying university current student modules courses',
+      a: 'He is an MSc student at the Oxford Internet Institute, University of Oxford (2026 to 2027), at St Antony’s College, and the elected MSc Student Representative for 2026 to 2027. His modules are Applied Machine Learning with LLMs, Applied Analytical Statistics, Algorithmic Fairness and Accountability, Digital Social Science Research Design, Technology Regulation and Internet and Society, and he audits Data Science and Machine Learning and Internet Economics.' },
     { k: 'ucl undergraduate bsc bachelor sts science technology studies degree',
       a: 'He read Science & Technology Studies at UCL (2023 to 2026), graduating with first-class honours, ranked first in the department’s cohort, with the Peter Medawar Prize and the STS Best Dissertation Prize.' },
     { k: 'london economics finance second degree lse achievement marks',
@@ -44,8 +44,8 @@
       a: 'His five sole-authored 2026 preprints apply psychometric and statistical models to benchmark structure and repair history, LLM-judge reliability, quality-adjusted inference prices and undisclosed change in frontier safety frameworks. Two are accepted at NeurIPS 2026 workshops and one is under review at ICLR 2027, and the analysis layer behind three of them is published as the benchprobe library. Every paper is listed in the research section with its status.' },
     { k: 'under review reviewed submitted pending status currently',
       a: 'Two papers are under review. "One Capability or Many?" is under review at ICLR 2027, and "Who Makes the Future of Work?", with Joanna Octavia, is under review at the International Labour Review.' },
-    { k: 'accepted accept acceptance journal workshops',
-      a: 'Three papers are accepted. "The Price of Intelligence" at the NeurIPS 2026 EconML workshop, "A Score Should Travel With Its Repair History" at the NeurIPS 2026 workshop on AI for Meta-Science, and "Neural Evidence and Behavioural Welfare Economics" at the UCL Journal of Economics, now in proof.' },
+    { k: 'accepted accept acceptance journal workshops published',
+      a: 'Two papers are accepted at NeurIPS 2026 workshops, "The Price of Intelligence" at EconML and "A Score Should Travel With Its Repair History" at AI for Meta-Science. "Neural Evidence and Behavioural Welfare Economics" is published in the UCL Journal of Economics, 5(1), 2026.' },
     { k: 'capability factor benchmark battery economic validity one many structural predictive iclr',
       a: '"One Capability or Many? Structural and Predictive Tests of Benchmark Validity Disagree about Economic Benchmarks for Frontier AI" asks whether economically framed benchmarks measure a distinct capability, across 421 model configurations and twelve benchmarks. Under the pre-specified dimensionality rule they form no distinct factor. Under linear learners, a multi-factor representation of the other benchmarks still predicts held-out economic scores better than a mean-score index, and the advantage reverses for tree learners. Preprint arXiv 2608.29420 (v2), under review at ICLR 2027; hypotheses pre-specified, analysis plan deposited retrospectively on OSF.' },
     { k: 'price intelligence index inference cost hedonic econml',
@@ -65,7 +65,7 @@
     { k: 'mmlu dissertation validity argument harness unassembled',
       a: 'His BSc dissertation, "The Unassembled Validity Argument", follows MMLU through six years of construction, repair and re-scoring, showing how harness-dependent instability propagates into the leaderboards and capability claims built on the score. It won the STS Best Dissertation Prize, and the repair-history position paper derives from it.' },
     { k: 'neural neuroeconomics welfare brain data policy behavioural',
-      a: '"Neural Evidence and Behavioural Welfare Economics: When Can Neuroeconomics Inform Policy?" is accepted at the UCL Journal of Economics, vol. 5, no. 1, now in proof (doi 10.14324/111.444.2755-0877.2257). An earlier version is on arXiv. It sits outside his evaluation programme.' },
+      a: '"Neural Evidence and Behavioural Welfare Economics: When Can Neuroeconomics Inform Policy?" is published in the UCL Journal of Economics, 5(1), 2026 (doi 10.14324/111.444.2755-0877.2257). An earlier version is on arXiv. It sits outside his evaluation programme.' },
     { k: 'future work hidden labour labor octavia ilo international labour review',
       a: '"Who Makes the Future of Work? Measurement, Hidden Labour and the Evidence on Artificial Intelligence", with Dr Joanna Octavia, is under review at the International Labour Review, with a preprint on SSRN. It grew out of a UCL MAPS-funded summer research internship and sits outside the evaluation programme.' },
     { k: 'wage wages automation exposure panel occupation ashe ons labour market',
