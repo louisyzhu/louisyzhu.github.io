@@ -48,8 +48,8 @@ RESEARCH
   predict how systems perform once deployed, particularly in interactive and agentic
   settings. Professional work is one possible setting.
 - In 2026 he released five sole-authored preprints. Two are accepted at NeurIPS 2026
-  workshops and one is under review at ICLR 2027.
-- Status summary. UNDER REVIEW, One Capability (ICLR 2027) and the Octavia review article
+  workshops; two are under review, at ICLR 2027 and ACM FAccT 2027.
+- Status summary. UNDER REVIEW, One Capability (ICLR 2027), Silent Revision (ACM FAccT 2027) and the Octavia review article
   (International Labour Review). ACCEPTED, The Price of Intelligence (NeurIPS 2026 EconML
   workshop), A Score Should Travel With Its Repair History (NeurIPS 2026 Workshop on AI for
   Meta-Science) and, PUBLISHED, Neural Evidence (UCL Journal of Economics 5(1), 2026). A workshop paper
@@ -87,8 +87,8 @@ RESEARCH
     twelve frontier developers; 710 commitment instances traced across twelve consecutive
     version pairs. Under the strict criterion 67% of material changes (95% CI 62% to 72%)
     are not identifiable from the developer's own account; under the lenient criterion 53%.
-    Always give the criterion with the rate. Preprint arXiv:2609.08789; full version in
-    preparation for ACM FAccT 2027. Corpus and code DOI 10.5281/zenodo.22670700 and
+    Always give the criterion with the rate. Preprint arXiv:2609.08789. UNDER REVIEW,
+    ACM FAccT 2027 (submitted October 2026). Corpus and code DOI 10.5281/zenodo.22670700 and
     github.com/louisyzhu/frontier-safety-framework-corpus. No claim about developers' intent.
   * "Three Ways Classical Test Theory Can Mislead About LLM Judges" (Q1). When reliability
     statistics answer the wrong question in LLM-judge pipelines; empirical item bank and
