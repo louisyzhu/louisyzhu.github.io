@@ -168,7 +168,7 @@ TALKS & COMMUNITY
   (J. Hernandez-Orallo, L. Pacchiardi), 29 October 2026. Paper presentation, Workshop on
   Human-Agent Collaboration, CHI 2026. Invited to present the MMLU work at the UCL Centre
   for Responsible Innovation. Explore Econ 2025, UCL.
-- Service. Invited reviewer for three NeurIPS 2026 workshops, Trust-AI-Eval (TAE), EconML
+- Service. Invited reviewer, ACM FAccT 2027 (main conference). Invited reviewer for three NeurIPS 2026 workshops, Trust-AI-Eval (TAE), EconML
   and JUDGe.
 - Roles. Elected MSc Student Representative, OII (2026-27); Director of Engagement, AI for
   Good Oxford; Sponsorship Lead, Oxford Artificial Intelligence Society; Fellow, Thinking
