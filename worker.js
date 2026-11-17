@@ -180,6 +180,8 @@ TALKS & COMMUNITY
 
 RECOGNITION
 - Peter Medawar Prize (UCL STS, top-ranked graduate across the three-year BSc), 2026.
+- Dean's List, UCL Faculty of Mathematical and Physical Sciences, 2026 (letter of 17 Nov 2026;
+  the list commends the top 5% of graduating students).
 - STS Best Dissertation Prize, 2026. First in the departmental cohort, 2026.
 - University of London Award for Academic Achievement, 2026, as one of the best performers
   on the BSc Economics and Finance in the 2026 examinations. Never "top of cohort".
