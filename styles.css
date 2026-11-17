@@ -1372,3 +1372,6 @@ h4.pub-title, h4.wl-title { margin: 0; font-weight: 600; }
 .hero-more a { text-decoration-color: var(--rule-strong); }
 .hero-more a:hover { text-decoration-color: var(--signal); }
 .hero-more em { color: var(--signal); font-style: italic; }
+
+/* eight logos: spread evenly across one row on wide screens */
+@media (min-width: 52rem) { .orgs { justify-content: space-between; gap: 1.5rem; } }
