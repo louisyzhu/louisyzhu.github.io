@@ -141,6 +141,9 @@ RESEARCH
   study (UCL CS), study design complete. Not in preparation.
 
 EXPERIENCE
+- From December 2026 (incoming). AI Development Assistant, Oxford University Press, Oxford.
+  Selected to extend L2-Bench, OUP's framework for evaluating large language models on
+  language-learning tasks, to Mandarin Chinese learners. Not yet started.
 - 2026- (from June). Research project, benchmark measurement, LSE Department of Statistics
   (mentors Dr Marcos Barreto and Dr Thomas Robinson). Built the analysis end to end in
   Python and extended it into the One Capability manuscript, now under review at ICLR 2027.
